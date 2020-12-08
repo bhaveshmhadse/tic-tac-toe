@@ -24,7 +24,7 @@ let currenttext = 'O';
 async function refreshgame() {
   for (let i = 0; i <= 2; i++) {
     for (let j = 0; j <= 2; j++) {
-      matrix[i][j] = 10;
+      matrix[i][j] = 2;
     }
   }
   document.getElementById('button1').innerText = '';
@@ -76,16 +76,15 @@ async function checkwinner() {
           alert(document.getElementById('player1').value + ' WINS!!');
           await sleep(500);
           refreshgame();
-          await sleep(500);
-          refreshgame();
+          
+
           break;
         }
         if (currentchild == 0 && upchild == 0 && downchild == 0) {
           alert(document.getElementById('player2').value + '  WINS!! ');
           await sleep(500);
           refreshgame();
-          await sleep(500);
-          refreshgame();
+   
           break;
         }
       }
@@ -115,8 +114,8 @@ async function checkwinner() {
           alert(document.getElementById('player1').value + ' WINS!!');
           await sleep(500);
           refreshgame();
-          await sleep(500);
-          refreshgame();
+          
+        
 
           break;
         }
