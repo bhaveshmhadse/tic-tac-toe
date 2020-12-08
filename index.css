@@ -1,0 +1,12 @@
+.button1 {
+  /* padding: 50px 50px; */
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 20px;
+  background-color: rgb(209, 233, 225);
+  cursor: pointer;
+  border: yellow;
+  align-self: flex-end;
+}
