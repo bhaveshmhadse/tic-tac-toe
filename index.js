@@ -101,8 +101,7 @@ async function checkwinner() {
           alert(document.getElementById('player1').value + ' WINS!!');
           await sleep(500);
           refreshgame();
-          await sleep(500);
-          refreshgame();
+          
 
           break;
         }
@@ -292,8 +291,8 @@ async function button9() {
   checkwinner();
 }
 
-// let button_1 = (document.getElementById('button1').onclick = button1);
 
-// async function butt() {
-//   document.getElementById('button1').innerText = 'Bhavesh';
-// }
+
+
+
+
