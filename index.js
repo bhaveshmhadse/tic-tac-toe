@@ -146,12 +146,12 @@ async function checkwinner() {
 async function button1() {
   if (currenttext == 'O') {
     document.getElementById('button1').innerHTML =
-      '<img src = "cancel.png" height = "120" width  ="120"/>';
+      '<img src = "cancel.png"/>';
     currenttext = 'X';
     matrix[0][0] = 1;
   } else {
     document.getElementById('button1').innerHTML =
-      '<img src = "o.png" height = "120" width  ="120"/>';
+      '<img src = "o.png"/>';
     currenttext = 'O';
     matrix[0][0] = 0;
   }
